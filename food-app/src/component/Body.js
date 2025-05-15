@@ -35,7 +35,7 @@ const Body = () => {
         const searchItem = event.target.value;
         setSearchText(searchItem);
     }
-console.log(listOfRestaurants);
+
     return (
         <div className="body">
             <div className="filter">
