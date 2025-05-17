@@ -1,4 +1,5 @@
 import ReactDom from "react-dom/client";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import Header from "./component/Header";
 import Body from "./component/Body";
 import About from "./component/About";
@@ -6,7 +7,6 @@ import Contact from "./component/Contact";
 import RestaurantMenu from "./component/RestaurantMenu";
 import Error from "./component/Error";
 import '../index.css';
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 
 const App = () => {
     return (
