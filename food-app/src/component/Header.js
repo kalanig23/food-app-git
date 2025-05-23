@@ -11,7 +11,6 @@ const Header = () => {
     //if not empty dependancy array=[btnName]=> useEffect is called every time the state is updated.
     
     useEffect(()=>{
-        console.log("useeffect called");
     },[]);
 
     const handleChangeName= () => {
